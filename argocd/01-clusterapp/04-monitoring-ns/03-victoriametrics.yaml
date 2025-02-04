@@ -127,4 +127,4 @@ spec:
         storageClassName: "managed-nfs-storage"
         resources:
           requests:
-            storage: 10Gi
+            storage: 2Gi
