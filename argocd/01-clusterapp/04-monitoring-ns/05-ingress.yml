@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - mon.kryukov.local
+        - mon.wsr.mv
       secretName: mon-tls
   rules:
-    - host: "mon.kryukov.local"
+    - host: "mon.wsr.mv"
       http:
         paths:
           - pathType: Prefix
